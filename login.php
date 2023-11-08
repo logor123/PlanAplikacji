@@ -7,15 +7,30 @@
     <title>Logowanie</title>
 </head>
 <body>
-<form action="login.php" method="post">
-        <h2>Panel Logowania</h2>
+    <div class="nagłówek">
+        <img src="eloelo.png" alt="Logo">
+        <h1>Sklep z ciuchami UwU?</h1>
+    </div>
+    <div class="blok-lewy">
+
+    </div>
+    <div class="blok-srodkowy">
+    <form action="login.php" method="post">
+    <h2>Panel Logowania</h2>
         <label for="imie">Login:</label>
         <input type="text" id="login" name="login"><br><br>
         <label for="haslo">Hasło:</label>
         <input type="password" id="haslo" name="haslo"><br><br>
         <input type="reset" value="Reset">
         <input type="submit" value="Zaloguj">
-    </form>
+        </form>
+    </div>
+    <div class="blok-prawy">
+
+    </div>
+    <div class="stopka">
+
+    </div>
 
     <?php   
     
@@ -29,7 +44,7 @@
     $sel = "SELECT login, haslo FROM uzytkownicy WHERE login = '.$login.' AND '.$haslo.' ";
     $zapytanie = mysqli_query($conn, $sel);
     if($wiersz['login'] = $login) {
-        header('Location:glowna.php');
+        header('Location:login.php');
     }else{
         echo 'Nie zalogowano';}
     ?>
