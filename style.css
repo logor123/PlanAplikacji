@@ -1,1 +1,47 @@
+body {
+    color: wnite;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
 
+.nagłówek {
+    width: 100%;
+    clear: both;
+}
+
+.nagłówek h1 {
+    position: fixed;
+    top: 22px;
+    left: 200px;
+}
+
+.nagłówek img {
+    height: 100px;
+    width: 100px;
+}
+
+.blok-lewy {
+    background-color: cornflowerblue;
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+.blok-lewy img {
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.blok-lewy input {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.blok-srodkowy {
+    color: purple;
+    background-color: aqua;
+    width: 40%;
+    float: left;
+}

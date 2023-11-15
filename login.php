@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logowanie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="nagłówek">
@@ -12,7 +13,8 @@
         <h1>Sklep z ciuchami UwU?</h1>
     </div>
     <div class="blok-lewy">
-
+    <img src="bochy.png" alt="bochy"><br>
+    <input type="button" value="zamów teraz!">
     </div>
     <div class="blok-srodkowy">
     <form action="login.php" method="post">
@@ -26,7 +28,7 @@
         </form>
     </div>
     <div class="blok-prawy">
-
+    
     </div>
     <div class="stopka">
 
