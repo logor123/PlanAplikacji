@@ -26,6 +26,7 @@ body {
     color: white;
     width: 30%;
     float: left;
+    border-radius: 40px;
 }
 
 .blok-lewy img {
@@ -44,4 +45,8 @@ body {
     background-color: aqua;
     width: 40%;
     float: left;
+    border-radius: 20px;
+}
+.blok-srodkowy input {
+    margin-left: 30px;
 }
